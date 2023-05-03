@@ -1,3 +1,4 @@
+import Table from "@/components/shared/table";
 import Head from "next/head";
 
 export default function Home() {
@@ -11,6 +12,9 @@ export default function Home() {
       </Head>
       <main className="w-full">
         <h1 className="text-3xl font-bold">Overview</h1>
+        <div className="mt-5">
+          <Table />
+        </div>
       </main>
     </>
   );
